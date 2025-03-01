@@ -10,4 +10,6 @@
 
     Upon further discovery, it appears the cpu.py and mem.py files listed in the project instructions are not necessary. Logger.py, Driver.py, and Encrypt.py files have been created.
 
+    # March 1 3:03pm
 
+    Started and potentially completed logger file. Instructions were straightforward for the use of logger, as it will continue working until the instruction line reads "QUIT" in which case it will end logging the message. Instructions also indicated the use of year-month-day format along with the 24 hour clock implemented, which will show before every logging message. The line will begin as the timestamp from the datetime module, the action requested, and the message.
