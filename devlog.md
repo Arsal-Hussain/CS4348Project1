@@ -5,3 +5,9 @@
     # March 1 2:26pm
 
     Starting first session of Project 1. Initial plan is to add the original files from project beginning stage (cpu and main memory) to repository, then begin with logger program.
+
+    # March 1 2:33pm
+
+    Upon further discovery, it appears the cpu.py and mem.py files listed in the project instructions are not necessary. Logger.py, Driver.py, and Encrypt.py files have been created.
+
+
