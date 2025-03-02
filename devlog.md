@@ -21,3 +21,13 @@
     # March 1 4:17pm
 
     Potentially completed Encryption program. Implements the Vigenere cipher for case-insensitive text encryption. For the commands, uses a match case to identify the string pass along on the command line, supporting pass, encrypt, decrypt, and quit. This ensures correct encryption and decryption outputs will match the manual calculation. When the instance of the input is when a password is not set, there is error handling set to catch this.
+
+    # March 1 4:31pm
+
+    Beginning Driver program of project. This will accept single lines of command and link to both the encryption and logging programs, performing as a centralized unit. Instructions state that because I am working on this in Python, I will need to use the subprocess module. This will be where the user interaction is occurring, and will facilitate all communication with the system. There will need to be five potential options in a menu of commands: password, encrypt, decrypt, history, and quit. There will also be a need for error checking if the commands are not of the potential options, or it is out of scope.
+
+    # March 2 1:18pm
+
+    Starting second session for project. Last finished on starting the driver program, where the match case commands were incorporated and an attempt to use the vigenere cipher. Using the subprocess methods it will be likely to implement the encryption and logger programs with Popen function.
+
+
