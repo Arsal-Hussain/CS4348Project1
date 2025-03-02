@@ -9,7 +9,7 @@ def main():
     logging_file = sys.argv[1]
 
     logger = subprocess.Popen(["python", "logger.py", logging_file], stdin=subprocess.PIPE, encoding="utf8")
-    encryptor = subprocess.Popen(["python", "encrypt.py"], stdin=subprocess.PIPEm stdout=subprocess.PIPE, encoding="utf8")
+    encryptor = subprocess.Popen(["python", "encrypt.py"], stdin=subprocess.PIPE, stdout=subprocess.PIPE, encoding="utf8")
 
     history = []
 
@@ -70,5 +70,5 @@ def main():
             case _:
                 print("invalid command")
 
-if __name__ = "__main__":
+if __name__ == "__main__":
     main()

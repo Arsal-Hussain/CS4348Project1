@@ -30,4 +30,8 @@
 
     Starting second session for project. Last finished on starting the driver program, where the match case commands were incorporated and an attempt to use the vigenere cipher. Using the subprocess methods it will be likely to implement the encryption and logger programs with Popen function.
 
+    # March 2 1:44pm
+
+    Driver program is complete and running. Debugging situations for error handling.
+
 

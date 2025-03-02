@@ -1,7 +1,7 @@
 import sys
 from datetime import datetime
 
-def logging(logging_file)
+def logging(logging_file):
     while True:
         line = sys.stdin.readline().strip()
         if line == "QUIT":
@@ -17,4 +17,4 @@ if __name__ == "__main__":
     if len(sys.argv) != 2:
         print("python logger.py <logfile>")
         sys.exit(1)
-    log_message(sys.argv[1])
+    logging(sys.argv[1])

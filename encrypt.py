@@ -5,10 +5,19 @@ passkey = None
 def vigenere_cipher(text, key, decrypt=False):
     key = key * (len(text) // len(key)) + key[:len(text) % len(key)]
     result = []
-    for t,k in zip(text, key):
-        shift = ord(k) - ord('A')
-        new_char = chr((ord(t) - ord('A') - shift) % 26 + ord('A')) if decrypt else ((ord(t) - ord('A') + shift) % 26 + ord('A'))
-        result.append(new_char)
+    index_key = 0
+
+    for char in text:
+        if char.isalpha():
+        shift = ord(key[index_key].upper()) - ord('A')
+            if decrypt:
+                new_char = chr(((ord(char.upper()) - ord('A') - shift) % 26) + ord('A')) 
+            else: 
+                new_char = chr(((ord(char.upper())- ord('A') + shift) % 26) + ord('A'))
+            result.append(new_char.lower() if char.islower() else new_char)
+            index_key += 1
+        else:
+            result.append(char)
     return "".join(result)
 
 def process_command():
@@ -42,5 +51,5 @@ def process_command():
 
         sys.stdout.flush()
 
-if __name__ = "__main__":
+if __name__ == "__main__":
     process_command()
