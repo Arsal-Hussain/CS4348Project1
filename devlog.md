@@ -41,3 +41,7 @@
     - Encrypt.py: which implements the vigenere cipher for encryption and deletion
     - Driver.py: Managing user interaction, launches subprocesses, and facilitates communication
     The system uses Python's subprocess module for inter-process communication through pipes.
+
+    # March 5 10:01pm
+
+    Noticed error with logfile that would loop on current date rather than print the activity of the program.
