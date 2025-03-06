@@ -34,4 +34,10 @@
 
     Driver program is complete and running. Debugging situations for error handling.
 
+    # March 5 9:51pm
 
+    Final implementations of the project have been completed. This project implements an encryption system using Python, consisting of three components: 
+    - Logger.py: which logs all system activities with timestamps
+    - Encrypt.py: which implements the vigenere cipher for encryption and deletion
+    - Driver.py: Managing user interaction, launches subprocesses, and facilitates communication
+    The system uses Python's subprocess module for inter-process communication through pipes.

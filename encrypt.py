@@ -9,7 +9,7 @@ def vigenere_cipher(text, key, decrypt=False):
 
     for char in text:
         if char.isalpha():
-        shift = ord(key[index_key].upper()) - ord('A')
+            shift = ord(key[index_key].upper()) - ord('A')
             if decrypt:
                 new_char = chr(((ord(char.upper()) - ord('A') - shift) % 26) + ord('A')) 
             else: 
