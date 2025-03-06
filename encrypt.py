@@ -43,7 +43,7 @@ def process_command():
                 if passkey is None:
                     print("ERROR Password not set")
                 else:
-                    print("RESULT", vigenere_cipher(argument, passkey))
+                    print("RESULT", vigenere_cipher(argument, passkey, decrypt=True))
             case "QUIT":
                 break
             case _:
