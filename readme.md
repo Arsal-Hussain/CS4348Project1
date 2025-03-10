@@ -1,4 +1,4 @@
-# **Vigenère Cipher Encryption System**
+# **CS 4348 Operating Systems Project 1**
 
 ## **Project Overview**
 This project implements a **Vigenère cipher-based encryption system** using Python. It consists of three main components:
@@ -6,8 +6,6 @@ This project implements a **Vigenère cipher-based encryption system** using Pyt
 1. **Logger (`logger.py`)** – Logs system activities with timestamps.
 2. **Encryption Program (`encrypt.py`)** – Encrypts and decrypts messages using the **Vigenère cipher**.
 3. **Driver (`driver.py`)** – Manages user interaction, spawns subprocesses, and facilitates communication between the components.
-
-The system is designed to work via **inter-process communication (IPC)** using Python’s **`subprocess`** module.
 
 ---
 
